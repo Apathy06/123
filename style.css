@@ -1,0 +1,296 @@
+body
+{
+    background-color: #f2f2f2;
+    justify-content: center;
+    display: flex;
+}
+body *
+{
+    pointer-events: none;
+    font-family: 'Open Sans', sans-serif;
+}
+.window
+{
+    width: 1440px;
+    height: 2810px;
+    background-color: #ffffff;
+    overflow: hidden;
+    position: relative;
+}
+.window > div
+{
+    position: absolute;
+    width: 100%;
+}
+.head
+{
+    position: relative;
+}
+.head *
+{
+    color: #ffffff;
+    position: absolute;
+}
+.name
+{
+    top: 40px;
+    left: 669px;
+}
+.title
+{
+    width: 576px;
+    font-size: 43px;
+    top: 377px;
+    left: 432px;
+}
+.title2
+{
+    width: 386px;
+    top: 439px;
+    left: 527.5px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.scroll
+{
+    width: 117px;
+    top: 682px;
+    left: 661px;
+    font-size: 11px;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+.menu
+{
+    height: 65px;
+    top: 768px;
+    left: -1px;
+    border: #e6e6e6 1px solid;
+    position: relative;
+}
+.menu > *
+{
+    position: absolute;
+    font-size: 12px;
+    letter-spacing: 1.09px;
+    color: #48555B;
+    height: 16px;
+    top: 25px;
+    font-weight: 600;
+}
+.name2
+{
+    top: 24px;
+    left: 251px;
+}
+.main
+{
+    position: relative;
+}
+.main *
+{
+    color: #48555B;
+}
+.main > *
+{
+    position: absolute;
+    width: 940px;
+    left: 250px;
+}
+.main > * > *
+{
+    position: relative;
+}
+.about
+{
+    top: 891px;
+}
+.title3
+{
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2.31px;
+    border-bottom: #00A4E5 2px solid;
+    padding-bottom: 10px;
+}
+.story
+{
+    width: 380px;
+    height: 101px;
+    top: 90px;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.25px;
+}
+.images
+{
+    width: 469px;
+    height: 140px;
+    top: -130px;
+    left: 482px;
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    position: relative;
+}
+.images > div
+{
+    position: relative;
+}
+.images a
+{
+    width: 76px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 0.19px;
+    line-height: 29px;
+    position: absolute;
+    top: 15px; left: 14px;
+    z-index: 1;
+}
+.placeholder
+{
+    width: 405.08px;
+    top: 100px;
+    line-height: 23px;
+    font-size: 13px;
+    letter-spacing: 0.19px;
+}
+.service
+{
+    top: 1353px;
+    position: relative;
+}
+.service > *
+{
+    position: absolute;
+}
+.placeholder2
+{
+    width: 405.4px;
+    left: 353px;
+    font-size: 11px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+}
+.button
+{
+    width: 150px;
+    height: 40px;
+    border: none;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #00A4E5;
+}
+.facilities
+{
+    top: 116px;
+    width: 940px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.facilities > div
+{
+    width: 248px;
+    height: 300px;
+    padding-top: 38px;
+    padding-left: 23px;
+    padding-right: 22px;
+    border: #E6E6E6 solid 1px;
+}
+.facilities img
+{
+    margin-bottom: 5px;
+}
+.description
+{
+    width: 250px;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.1px;
+    line-height: 24px;
+}
+.placeholder3
+{
+    width: 250px;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 0.19px;
+}
+.touch
+{
+    height: 499px;
+    top: 1914px;
+    background-image: url('img/9.png');
+}
+.ask
+{
+    width: 350px;
+    margin: 120px 545px 35px 545px;
+    text-align: center;
+    color: #48555B;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.15px;
+    font-weight: 700;
+}
+.newsletter
+{
+    height: 100px;
+    top: 2412px;
+    background-color: #171819;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.content
+{
+    width: 685px;
+    height: 40px;
+    flex-direction: row;
+    display: flex;
+}
+.content a
+{
+    margin-top: 5px;
+    margin-right: 70px;
+    color: #FFFFFF;
+    font-size: 22px;
+    letter-spacing: 0.85px;
+}
+input::placeholder
+{
+    padding-top: 11px;
+    padding-left: 16px;
+}
+.footer
+{
+    top: 2511px;
+    height: 240px;
+    letter-spacing: 0.85px;
+    color: #ffffff;
+    background-color: #141A20;
+}
+table
+{
+    margin-top: 42px;
+    margin-left: 249px;
+    font-size: 11px;
+    line-height: 25px;
+}
+.copyright
+{
+    height: 60px;
+    top: 2751px;
+    color: #FFFFFF;
+    background-color: #171819;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
